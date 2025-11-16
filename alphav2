@@ -275,7 +275,7 @@ curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/alpha"
+izinsc="https://raw.githubusercontent.com/DiezGod/ijin/refs/heads/main/alpha"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -311,8 +311,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="1469244768"
-KEY="7911375235:AAERwknqnWLoqWFbsSuUfqCQGMy93UQHUTk"
+CHATID="7117253419"
+KEY="7904998726:AAF1mtbkf40udnNqc4rzwQwcZwuOLfloJ5U"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 IP=$(curl -sS ipv4.icanhazip.com)
