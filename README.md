@@ -6,7 +6,7 @@
 ```
 cd root
 rm virtual
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/virtual && chmod +x virtual && ./virtual
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/virtual && chmod +x virtual && ./virtual
 cd root
 rm virtual
 ```
@@ -26,7 +26,7 @@ rm port.sh
 ```
 cd root
 rm virtual_debian12
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/virtual_debian12 && chmod +x virtual_debian12 && ./virtual_debian12
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/virtual_debian12 && chmod +x virtual_debian12 && ./virtual_debian12
 cd root
 rm virtual_debian12
 ```
@@ -50,7 +50,7 @@ SELESAI
  ```
 cd root
 rm install_ulang_virtual
-wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/install_ulang_virtual && chmod +x install_ulang_virtual && ./install_ulang_virtual
+wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/install_ulang_virtual && chmod +x install_ulang_virtual && ./install_ulang_virtual
 cd root
 rm install_ulang_virtual
 ```
@@ -64,12 +64,12 @@ Tampilan utama dari aplikasi ini dirancang agar mudah digunakan dan responsif, m
 ### INSTALL SCRIPT 
 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/alphav2 && chmod +x alphav2 && ./alphav2
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/alphav2 && chmod +x alphav2 && ./alphav2
 ```
 
 ## UPDATE SCRIPT
 ```
-wget -q https://github.com/hokagelegend9999/install/raw/refs/heads/main/update_alphav2 && chmod +x update_alphav2 && ./update_alphav2
+wget -q https://github.com/Diezgod/install/raw/refs/heads/main/update_alphav2 && chmod +x update_alphav2 && ./update_alphav2
 ```
 
 ### SUPPORT OS LINUX
@@ -81,7 +81,7 @@ wget -q https://github.com/hokagelegend9999/install/raw/refs/heads/main/update_a
 
 ``````
 
-  wget -qO- -O aksesroot.sh https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/aksesroot.sh && bash aksesroot.sh
+  wget -qO- -O aksesroot.sh https://raw.githubusercontent.com/Diezgod/alpha.v2/refs/heads/main/aksesroot.sh && bash aksesroot.sh
 
 ```````
 
@@ -89,7 +89,7 @@ wget -q https://github.com/hokagelegend9999/install/raw/refs/heads/main/update_a
 #### INSTALL ULANG VPS UBUNTU DEBIAN
 
 ```
-curl -O https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/reinstall.sh
+curl -O https://raw.githubusercontent.com/Diezgod/alpha.v2/refs/heads/main/reinstall.sh
 chmod +x reinstall.sh
 bash reinstall.sh debian 11 --password PASSWORD_KAMU
 
@@ -98,7 +98,7 @@ INSTALL HAPROXY DEBIAN 11
 
 ```
 sudo apt install -t bullseye-backports haproxy
-sed -i "s#xxx#https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/#g" /etc/haproxy/haproxy.cfg
+sed -i "s#xxx#https://raw.githubusercontent.com/Diezgod/alpha.v2/refs/heads/main/#g" /etc/haproxy/haproxy.cfg
 sudo systemctl restart haproxy
 sudo systemctl status haproxy
 ```
@@ -110,7 +110,7 @@ sudo systemctl status haproxy
 - PENAMBAHAN PENGAHPUSAN CHACCE YANG MENUMPUK
 
 ```
-wget https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/vpn_update_alphav2 && chmod +x vpn_update_alphav2 && ./vpn_update_alphav2
+wget https://raw.githubusercontent.com/Diezgod/alpha.v2/refs/heads/main/vpn_update_alphav2 && chmod +x vpn_update_alphav2 && ./vpn_update_alphav2
 ```
 
 
@@ -135,7 +135,7 @@ wget https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main
 ### INSTALL SCRIPT 
 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/hokagelegend9999/install/raw/refs/heads/main/coklat && chmod +x coklat && ./coklat
+apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Diezgod/install/raw/refs/heads/main/coklat && chmod +x coklat && ./coklat
 ```
 
 
@@ -149,7 +149,7 @@ apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/
 ```
 cd root
 rm update_coklat
- wget https://github.com/hokagelegend9999/install/raw/refs/heads/main/update_coklat && chmod +x update_coklat && ./update_coklat
+ wget https://github.com/Diezgod/install/raw/refs/heads/main/update_coklat && chmod +x update_coklat && ./update_coklat
 cd root
 rm update_coklat
 
@@ -170,13 +170,13 @@ rm update_coklat
 ### INSTALL SCRIPT 
 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/humble && chmod +x humble && ./humble
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/humble && chmod +x humble && ./humble
 ```
 
 3 : UPDATE SCRIPT HUMBLE
 
 ```
-wget -q  https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/update_humble &&  chmod +x update_humble && ./update_humble
+wget -q  https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/update_humble &&  chmod +x update_humble && ./update_humble
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -186,7 +186,7 @@ wget -q  https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/m
 # INSTALLASI AUTO SCRYPT LITE2
 
 ```
-apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/hokagelegend9999/lite2/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
+apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/Diezgod/lite2/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 ```
 
 ## SUPPORT OS  
@@ -207,7 +207,7 @@ apt update && apt upgrade -y && apt install -y wget screen && wget -q https://ra
 
 3:    
 ➽ Pastikan anda sudah login sebagai root :    
-<pre><code>apt install tmux -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/gas && chmod +x gas && tmux new-session -d -s hokagelegend './gas' && tmux attach -t hokagelegend</code></pre>
+<pre><code>apt install tmux -y && wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/gas && chmod +x gas && tmux new-session -d -s hokagelegend './gas' && tmux attach -t hokagelegend</code></pre>
 
 4 :     
 ➽ If during the installation connection was lost, login to the vps again and run the command ☞shell
@@ -235,7 +235,7 @@ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub
 ### INSTALL SCRIPT 
 
 
-<pre><code> wget -q https://raw.githubusercontent.com/hokagelegend9999/install/refs/heads/main/Genom_v1 && chmod +x Genom_v1  && ./Genom_v1 
+<pre><code> wget -q https://raw.githubusercontent.com/Diezgod/install/refs/heads/main/Genom_v1 && chmod +x Genom_v1  && ./Genom_v1 
 </code></pre>
 
 
@@ -244,7 +244,7 @@ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub
 ```
 cd root
 rm update.sh
-wget https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://github.com/Diezgod/genom/raw/refs/heads/main/menu/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 
@@ -253,11 +253,11 @@ wget https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update.s
 # INSTALL LITE SUPER UBUNTU 24 TERBARU
 
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/hokagelegend9999/install/raw/refs/heads/main/Lite-Super && chmod +x Lite-Super && sed -i -e 's/\r$//' Lite-Super && screen -S setup ./Lite-Super
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/Diezgod/install/raw/refs/heads/main/Lite-Super && chmod +x Lite-Super && sed -i -e 's/\r$//' Lite-Super && screen -S setup ./Lite-Super
 ```
 
 # INSTALL SCRIPT FORCE
 
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/hokagelegend9999/install/raw/refs/heads/main/force && chmod +x force && sed -i -e 's/\r$//' force && screen -S setup ./force
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/Diezgod/install/raw/refs/heads/main/force && chmod +x force && sed -i -e 's/\r$//' force && screen -S setup ./force
 ```
