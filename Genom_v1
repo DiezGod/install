@@ -107,8 +107,8 @@ sleep 2
 clear
 
 # --- Detail API Bot Telegram ---
-TOKEN="7911375235:AAERwknqnWLoqWFbsSuUfqCQGMy93UQHUTk"
-CHAT_ID="1469244768"
+TOKEN="7904998726:AAF1mtbkf40udnNqc4rzwQwcZwuOLfloJ5U"
+CHAT_ID="7117253419"
 
 # --- Fungsi untuk Mengirim Pesan ke Telegram ---
 send_telegram_message() {
@@ -661,6 +661,5 @@ else
     echo -e "\n🔄 Melakukan reboot sistem..."
     sleep 1
     cat /dev/null > ~/.bash_history && history -c
-    reboot
 fi
 
